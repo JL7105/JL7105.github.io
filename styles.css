@@ -1,0 +1,332 @@
+/*------------------------------------Master Styles---------------------------------------------------------*/
+html {
+   margin: 0px;
+   height: 100%;
+   width: 100%;
+}
+
+body {
+   margin: 0px;
+   height: 100%;
+   width: 100%;
+   background-color:black;
+}
+
+.container {
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+/*----------------------------------------------------Nav Styles---------------------------------------------*/
+.nav-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 38px;
+    border-bottom: 3px solid #a8a8a8;
+    height: 20px;
+}
+
+.brand {
+    font-weight: 600;
+    color: black;
+}
+
+.left-side {
+    display: flex;
+}
+
+
+.nav-wrapper > .left-side > div {
+    margin-right: 20px;
+    font-size: 1.0em;
+    text-transform: uppercase;
+  
+}
+
+.nav-link-wrapper {
+    height: 22px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;
+}
+
+.nav-link-wrapper a {
+    font-weight: 600;
+    color: #a8a8a8;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+.nav-link-wrapper:hover {
+    border-bottom: 1px solid #43c7be;
+
+}
+
+.nav-link-wrapper a:hover {
+    color: #43c7be;
+    
+}
+
+.brand {
+    color: white;
+}
+/*----------------------------------------------------------------------------------Profile Page----------------------------------------------------------------------*/
+
+.two-column-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.profile-item-wrapper {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-content: center;
+    justify-content: center;
+ 
+}
+
+.profile-item-wrapper img{
+    margin: auto;
+}
+
+.profile-content-wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.profile-img-text {
+    display: flex;
+}
+.home-text #majorSchool {
+    font-size: 20px;
+    font-family: 'Poiret One', sans-serif;
+    color: white;
+    margin-bottom: 10px;
+    font-weight: 10;
+}
+.home-text #firstName{
+    font-size: 150px;
+    font-family: 'Chakra Petch', sans-serif;
+    color: #43c7be;
+    margin-top: -35px;
+    margin-bottom: -50px;
+    font-weight: bold;
+    
+
+}
+.home-text #lastName{
+    font-size: 150px;
+    font-family: 'Chakra Petch', sans-serif;
+    color: #43c7be;
+    margin-top: -50px;
+    padding-left: 50px;
+    font-weight: bold;
+   
+
+}
+
+.social-media {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    background-color: transparent;
+    height: 100%;
+    width: 100px;
+}
+
+.social-media a {
+    margin: auto;
+    font-size: 50px;
+    color: #43c7be;
+    border: 1px solid #43c7be;
+    border-radius: 25px;
+    padding: 10px;
+    border-width: 5px;
+}
+
+
+
+/*-----------------------------------------------------------------------------------SKILLS PAGE---------------------------------------------------------------------*/
+/* ------------------------------------------------------------------------------Porfolio Styles-------------------------------------------------------*/
+
+.portfolio-items-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border-left: 1px 
+}
+
+
+.portfolio-items-wrapper .portfolio-item-wrapper #top1{
+    border-bottom: 3px solid #43c7be;
+}
+.portfolio-items-wrapper .portfolio-item-wrapper #top2{
+    border-bottom: 3px solid #43c7be;
+    border-left: 3px solid #43c7be;
+}.portfolio-items-wrapper .portfolio-item-wrapper #top3{
+    border-bottom: 3px solid #43c7be;
+    border-left: 3px solid #43c7be;
+}
+.portfolio-items-wrapper .portfolio-item-wrapper #top4{
+    border-bottom: 3px solid #43c7be;
+}
+.portfolio-items-wrapper .portfolio-item-wrapper #top5{
+    border-bottom: 3px solid #43c7be;
+    border-left: 3px solid #43c7be;
+}
+.portfolio-items-wrapper .portfolio-item-wrapper #top6{
+    border-bottom: 3px solid #43c7be;
+    border-left: 3px solid #43c7be;
+}
+.portfolio-items-wrapper .portfolio-item-wrapper #top8{
+    border-left: 3px solid #43c7be;
+}
+.portfolio-items-wrapper .portfolio-item-wrapper #top9{
+    border-left: 3px solid #43c7be;
+}
+
+.portfolio-items-wrapper .portfolio-item-wrapper #top10{
+    border-top: 3px solid #43c7be;
+}
+.portfolio-items-wrapper .portfolio-item-wrapper #top11{
+    border-top: 3px solid #43c7be;
+    border-left: 3px solid #43c7be;
+}
+.portfolio-items-wrapper .portfolio-item-wrapper #top12{
+    border-top: 3px solid #43c7be;
+    border-left: 3px solid #43c7be;
+}
+
+
+
+
+
+
+
+
+
+.portfolio-item-wrapper {
+    position: relative;
+}
+
+.portfolio-img-background {
+    height: 350px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.img-text-wrapper {
+    position: absolute;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+    padding-left: 200px;
+    padding-right: 200px;
+    
+}
+
+.logojava-wrapper img {
+    width: 80%;
+    margin-bottom: 20px;
+}
+
+.img-text-wrapper .subtitle {
+    transition: 1s;
+    font-weight: 600;
+    color: transparent;
+}
+
+.img-text-wrapper:hover .subtitle {
+    font-weight: 600;
+    color: white;
+}
+/*---------------------------------------------------------------------------CONTACT PAGE------------------------------------------------------------------------*/
+
+.contact-page-title {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    border: 5px solid #43c7be;
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-top: 100px;
+
+
+    
+}
+
+.contact-page-title h1 {
+    margin: auto;
+    padding-bottom: 300px;
+    font-size: 80px;
+    padding: 0px;
+    width: 400px;
+    border-bottom: 2px solid #43c7be;
+  
+}
+
+form {
+    margin: auto;
+    background: transparent;
+    display: flex;
+    flex-direction: column;
+    padding: 2vw, 4vw;
+    max-width: 600px;
+    border-radius: 10px;
+
+}
+
+form input, form textarea {
+    border: 0;
+    margin: 10px 0;
+    padding: 20px;
+    outline: none;
+    border: 2px solid #43c7be;
+    background: transparent;
+    color: #43c7be
+   
+}
+
+form button {
+    padding: 15px;
+    background: #43c7be;
+    font-size: 18px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    margin: 20px auto 15px;
+    width: 150px;
+    border-radius: 30px;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+/*----------------------------------------------------------------------------JS--------------------------------------------------------------------------------*/
+.img-darken {
+    transition: 1s;
+    filter: brightness(30%);
+}
